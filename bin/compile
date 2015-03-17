@@ -13,5 +13,5 @@ function indent() {
 }
 
 cd $1
-echo "-----> Running bin/test"
-bin/test | indent
+echo "-----> Running test"
+test | indent
