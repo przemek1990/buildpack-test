@@ -14,4 +14,4 @@ function indent() {
 
 cd $1
 echo "-----> Running test"
-test | indent
+./test.sh | indent
