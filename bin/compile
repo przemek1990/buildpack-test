@@ -15,5 +15,4 @@ function indent() {
 cd $1
 echo "-----> Running test"
 chmod a+x test.sh
-echo $LEIN_VERSION
 ./test.sh | indent
