@@ -2,4 +2,4 @@
 
 A buildpack for testing things.
 
-Will run `bin/test` on your app
+Will run `test.sh` on your app directory.
